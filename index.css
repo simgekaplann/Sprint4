@@ -1,0 +1,24 @@
+/* index.css */
+.intro {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button_new {
+    text-align: center;
+    margin-top: 20px; /* Butonun yazıdan ne kadar aşağıda olmasını istediğinize bağlı olarak ayarlayın */
+}
+
+.button_special {
+    display: inline-block; /* Butonun genişliğini içeriğe göre ayarlamak için inline-block kullanılır */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

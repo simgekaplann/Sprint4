@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="headerStyles.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="jquery.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+    <script type="text/javascript" src="contactus.js"></script>
+    
+</head>
+<body>
+    <div class="header">
+        <h1>TESLA</h1>
+        <div class="menu">
+            <a href="index.html">About Tesla</a>
+            <a href="gallery.html">Gallery Corner</a>
+            <a href="event.html">Event</a>
+            <a href="supportPage.html">Support</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="more.html">More..</a>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="contact">Contact Us</h1>
+        <p>We are available from 5 PM to 9 PM.</p>
+        <p>Please feel free to contact us during our working hours.</p>
+        
+        <div class="form-container">
+            
+            <form action="#" id="myForm">
+                <table class="contact-form-table">
+                    <tbody>
+                        <tr>
+                            <td><label for="name">Name:</label></td>
+                            <td><input type="text" id="name" name="name" autocomplete="name" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" id="email" name="email" autocomplete="email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="message">Message:</label></td>
+                            <td><textarea id="message" name="message" autocomplete="message" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center;"><button type="submit">Submit</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+            
+        </div>
+    </div>
+
+    <div id="dialog-message" title="Message Sent">
+        <p>Your message has been successfully sent.</p>
+    </div>
+    
+    
+    
+    

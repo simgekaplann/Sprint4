@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservation Form</title>
+  <link rel="stylesheet" href="headerStyles.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="calendar.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="jquery.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="calendar.css">
+  <script type="text/javascript" src="calendar.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.13.18/jquery.timepicker.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.10.0/jquery.timepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+  
+</head>
+<body>
+  <div class="header">
+    <h1>TESLA</h1>
+    <div class="menu">
+      <a href="index.html">About Tesla</a>
+      <a href="gallery.html">Gallery Corner</a>
+      <a href="event.html">Event</a>
+      <a href="supportPage.html">Support</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="more.html">More..</a>
+    </div>
+  </div>
+  <div class="container">
+    <h1>Reservation Form</h1>
+    <div class="form-container">
+      <form id="reservationForm" action="#" >
+        <table class="reservation-table">
+          <tbody>
+            <tr>
+              <td style="text-align: right;"><label for="name">Name:</label></td>
+              <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+              <td style="text-align: right;"><label for="email">Email:</label></td>
+              <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+              <td style="text-align: right;"><label for="phone">Phone:</label></td>
+              <td><input type="tel" id="phone" name="phone"></td>
+            </tr>
+            <tr>
+              <td style="text-align: right;"><label for="date">Date:</label></td>
+              <td><input type="text" id="date" name="date" autocomplete="off" required></td>
+            </tr>
+            <tr>
+              <td style="text-align: right;"><label for="time">Time:</label></td>
+              <td><input type="text" id="time" name="time" required></td>
+            </tr>
+            <tr>
+              <td style="text-align: right;"><label for="participants">Number of Participants:</label></td>
+              <td><input type="number" id="participants" name="participants" min="1" required></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align: center;"><button type="submit">Submit</button></td>
+            </tr>
+          </tbody>
+
+                </table>
+            </form>
+        </div>
+    </div>
+    <div id="dialog-message" title="Reservation Status"></div>
+</body>
+</html>

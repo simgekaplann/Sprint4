@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+    /* Gradient background */
+    background: linear-gradient(to right, #ff9999, #66ccff);
+}
+
+.sidebar {
+    float: left;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Provides space between quiz titles */
+.sidebar h2 {
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 20px; 
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    color: #ccc;
+}
+
+.content {
+
+    /* Adjusted margin to accommodate sidebar */
+    margin-left: 240px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quiz {
+    width: calc(50% - 20px);
+    margin-right: 40px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz h2 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #333;
+}
+
+.questions {
+    margin-top: 20px;
+}
+
+.questions h3 {
+    margin-top: 0;
+    color: #555;
+    font-size: 20px;
+}
+
+.questions p {
+    color: #777;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+.choices {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.choices li {
+    margin-bottom: 5px;
+}

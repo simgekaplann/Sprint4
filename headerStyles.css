@@ -1,0 +1,95 @@
+/* Reset browser default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    font-family: Arial, sans-serif;
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    margin-top: 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu a {
+    color: white; 
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
+/* Style the container to ensure vertical alignment */
+.content {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+/* Frame around images */
+
+.image-container {
+    margin-top: 20px; 
+}
+
+/* Frame around images */
+.image-container img {
+    border: 5px solid #333; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.image-container:last-child img {
+    width: 350px; 
+    height: auto; 
+}
+
+
+/* Update the intro part */
+
+.intro {
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Update the style of the paragraph containing the intro text */
+.intro-text {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 22px; 
+    font-style: italic; 
+    line-height: 1.6;
+    color: #333; 
+}
+
+body{
+    background: linear-gradient(to right, #ff9999, #66ccff);
+}
+
+
+
+footer {
+    text-align: center; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff; 
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}

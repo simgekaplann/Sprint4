@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    
+  <!-- Include external CSS files for styling -->
+
+   <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="headerStyles.css">
+    <link rel="stylesheet" href="footerStyles.css">
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="jquery.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="form.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>TESLA</h1>
+         <!-- Navigation menu -->
+        <div class="menu">
+            <a href="index.html">About Tesla</a>
+            <a href="gallery.html">Gallery Corner</a>
+            <a href="event.html">Event</a>
+            <a href="supportPage.html">Support</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="more.html">More..</a>
+        </div>
+    </div>
+
+    <main>
+       <form action="#" id="mycontact"> <section class="contact-form">
+        <!-- Input fields for name, email, subject, and message -->
+        <div class="input-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="input-group">
+            <label for="subject">Subject:</label>
+            <input type="text" placeholder="About: " id="subject" name="subject" required>
+        </div>
+
+        <div class="input-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <!-- Button to submit the form -->
+        <div class="button-container">
+            <button type="submit">Send Message</button>
+        </div>
+    </section></form>
+    </main>
+    <div id="dialog-message" class="dialog-message" title="Bilgi">
+        <p>Your message has been sent successfully!
+        </p>
+    </div>
+    
+</body>
+</html>
+

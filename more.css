@@ -1,0 +1,54 @@
+.intro {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.search-section {
+    text-align: center; /* Arama kutusu ve butonun ortalanması */
+    margin: 20px 0;
+}
+
+.search-section input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px; /* Arama kutusunun genişliği */
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.button_special {
+    display: inline-block;
+    margin-left: 10px; /* Butonun arama kutusuna yakın olması için margin */
+    padding: 10px;
+    background-color: #007bff; /* Mavi renk */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button_special:hover {
+    background-color: #0056b3; /* Daha koyu mavi renk */
+}
+
+.ajax-content {
+    text-align: center;
+    margin: 20px auto; /* Arama sonuçlarının dikey ve yatay merkezlenmesi */
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 600px; /* Arama sonuçlarının maksimum genişliği */
+}
+
+.photo-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}

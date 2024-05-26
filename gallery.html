@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikola Tesla Calculator</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="headerStyles.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="jquery.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="calendar.css">
+  <script type="text/javascript" src="gallery.js"></script>
+  <link rel="stylesheet" href="viewbox.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="jquery.viewbox.min.js"></script>
+<!-- Fancybox CSS dosyasını dahil et -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+<!-- jQuery kütüphanesini dahil et -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Fancybox JavaScript dosyasını dahil et -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+</head>
+<body>
+
+    <div class="header">
+        <h1>TESLA</h1>
+        <!-- Navigation -->
+        <div class="menu">
+            <a href="index.html">About Tesla</a>
+            <a href="gallery.html">Gallery Corner</a>
+            <a href="event.html">Event</a>
+            <a href="supportPage.html">Support</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="more.html">More..</a>
+        </div>
+    </div>
+
+
+    <div class="image-gallery">
+        <a data-fancybox="gallery" href="photo1.png" class="image-link">
+            <img src="photo1.png" style="height: 220px;" alt="">
+        </a>
+        <a data-fancybox="gallery" href="photo2.png" class="image-link" title="Image Title">
+            <img src="photo2.png" alt="">
+        </a>
+        <a data-fancybox="gallery" href="photo3.png" class="image-link">
+            <img src="photo3.png" alt="">
+        </a>
+        <a data-fancybox="gallery" href="photo4.png" class="image-link">
+            <img src="photo4.png" alt="">
+        </a>
+    </div>
+
+
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            // Fancybox'ı belirli bir grup için etkinleştirme
+            $("[data-fancybox='gallery']").fancybox({
+                // Fancybox ayarları burada tanımlanabilir (isteğe bağlı)
+                loop: true, // Resimleri döngüsel olarak göster
+                buttons: [
+                    "zoom",
+                    "slideShow",
+                    "thumbs",
+                    "close"
+                ]
+            });
+        });
+    </script>
+    
+
+
+
+    <!-- Copyright Information -->
+    
+    <footer class="footer">
+        <p>© 2024 All rights reserved to KaplanOzyurt.</p>
+    </footer>
+    
+</body>
+</html>
+

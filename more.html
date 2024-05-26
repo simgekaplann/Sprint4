@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla News Page</title>
+    <link rel="stylesheet" href="headerStyles.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="news.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>TESLA</h1>
+        <div class="menu">
+            <a href="index.html">About Tesla</a>
+            <a href="gallery.html">Gallery Corner</a>
+            <a href="event.html">Event</a>
+            <a href="supportPage.html">Support</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="more.html">More..</a>
+        </div>  
+    </div>
+    <div class="content">
+        <div class="intro">
+            <p class="intro-text">Discover the latest news about Tesla.</p>
+        </div>
+        <div class="search-section">
+            <input type="text" id="search" placeholder="Enter tags to search"> <!-- Arama kutusu eklendi -->
+            <button id="btnSearch" class="button_special">Get Latest Tesla News</button>
+        </div>
+        <div id="news-content" class="ajax-content"></div>
+    </div>
+    <footer class="footer">
+        <p>© 2024 All rights reserved to KaplanOzyurt.</p>
+    </footer>
+</body>
+</html>
